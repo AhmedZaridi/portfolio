@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Boucle infinie -->
+  <path d="M10 16C10 12 13 9 16 9C19 9 21 12 24 16C21 20 19 23 16 23C13 23 10 20 10 16Z" 
+        stroke="url(#paint0_linear)" stroke-width="2" fill="none"/>
+  <path d="M30 16C30 12 27 9 24 9C21 9 19 12 16 16C19 20 21 23 24 23C27 23 30 20 30 16Z" 
+        stroke="url(#paint0_linear)" stroke-width="2" fill="none"/>
+  
+  <!-- Engrenage gauche -->
+  <circle cx="14" cy="16" r="2" fill="url(#paint0_linear)"/>
+  <path d="M14 12L14 14M14 18L14 20M10 16L12 16M16 16L18 16M11.5 13.5L13 15M15 17L16.5 18.5M13 17L11.5 18.5M15 15L16.5 13.5" 
+        stroke="url(#paint0_linear)" stroke-width="1"/>
+  
+  <!-- Engrenage droit -->
+  <circle cx="26" cy="16" r="2" fill="url(#paint0_linear)"/>
+  <path d="M26 12L26 14M26 18L26 20M22 16L24 16M28 16L30 16M23.5 13.5L25 15M27 17L28.5 18.5M25 17L23.5 18.5M27 15L28.5 13.5" 
+        stroke="url(#paint0_linear)" stroke-width="1"/>
+  
+  <!-- Dégradé -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="10" y1="9" x2="30" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>
